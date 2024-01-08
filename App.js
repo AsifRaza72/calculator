@@ -11,7 +11,7 @@ export default function App() {
     dark2: '#272B33',
     light: '#FFF',
     light1: 'rgb(220, 220, 220)',
-    light2: '#F7F7F7'
+    light2: '#F7F7F7',
   };
 
   const calculate = (title) => {
@@ -69,7 +69,7 @@ export default function App() {
         width: '100%',
         paddingVertical: 20,
         backgroundColor: getColor(colors.light, colors.dark),
-        alignItems: 'center',
+        alignItems: 'center'
       }}>
       <Switch
         value={darkTheme}
@@ -84,7 +84,7 @@ export default function App() {
           textAlign: 'right',
           paddingRight: 20,
           color: getColor(colors.dark, colors.light),
-          marginTop: 160, 
+          marginTop: 160,
           paddingBottom: 20
         }}>
         {result}
